@@ -1,0 +1,14 @@
+import * as React from 'react';
+
+
+class Test extends React.Component<{},{}> {
+    render() {
+        return (
+            <div className="App">
+                <h1>My little tester class </h1>
+            </div>
+        );
+    }
+}
+
+export default Test;
