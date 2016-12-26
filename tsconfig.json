@@ -2,10 +2,10 @@
   "compilerOptions": {
     "jsx": "react",
     "module": "commonjs",
+    "outDir": "/build/",
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "removeComments": true,
-    "target": "es6",
-    "definitions": false
+    "target": "es6"
   }
 }

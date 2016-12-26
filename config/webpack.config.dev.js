@@ -121,7 +121,7 @@ module.exports = {
       },
         {
           test: /\.(ts|tsx)$/,
-            loaders: ['react-hot', 'babel!ts-loader'],
+            loaders: ['react-hot', 'babel', 'ts-loader'],
             include: paths.appSrc
         },
       // Process JS with Babel.
